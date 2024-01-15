@@ -7,6 +7,24 @@ html, body {
     user-select: none; /* Standard syntax */
 }
 
+h1, p {
+    margin: 20px;
+}
+
+.home-link, .next-page-link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-bottom: 2px solid #3498db;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.home-link:hover, .next-page-link:hover {
+    border-bottom: 2px solid #e74c3c;
+    color: #e74c3c;
+}
+
 body {
     display: flex;
     justify-content: center;
